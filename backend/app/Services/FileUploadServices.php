@@ -6,7 +6,6 @@ class FileUploadServices
 {
   public static function fileUpload($imageFile)
   {
-
     $fileNameWithExt = $imageFile->getClientOriginalName();
 
     $fileName = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
